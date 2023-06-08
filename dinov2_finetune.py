@@ -28,7 +28,7 @@ parser.add_argument('--batch-size', '-b', default=128, type=int, metavar='N',
                     help='mini-batch size (default: 128)')
 parser.add_argument('--log-dir', default='./', type=str, metavar='PATH',
                     help='path to directory where to log (default: current directory)')
-parser.add_argument('--data-dir', requires=True, type=str, metavar='PATH',
+parser.add_argument('--data-dir', required=True, type=str, metavar='PATH',
                     help='path to the dataset')
 
 
